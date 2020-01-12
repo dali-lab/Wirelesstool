@@ -29,27 +29,10 @@ Wireless Tool for ITC
     ├── README.md
     ├── app
     │   ├── __pycache__
-    │   └── app.py # the root file of the server
-    ├── bin # virtual environment
-    │   ├── activate
-    │   ├── activate.csh
-    │   ├── activate.fish
-    │   ├── activate.ps1
-    │   ├── activate.xsh
-    │   ├── activate_this.py
-    │   ├── easy_install
-    │   ├── easy_install-3.7
-    │   ├── falcon-bench
-    │   ├── falcon-print-routes
-    │   ├── gunicorn
-    │   ├── pip
-    │   ├── pip3
-    │   ├── pip3.7
-    │   ├── python -> python3.7
-    │   ├── python-config
-    │   ├── python3 -> python3.7
-    │   ├── python3.7
-    │   └── wheel
+    │   ├── components
+    │   ├── config
+    │   └── index.py # the root file for the server
+    ├── bin # virtual environment        
     ├── include
     │   └── python3.7m -> /usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/include/python3.7m
     └── lib
