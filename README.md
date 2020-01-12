@@ -63,7 +63,7 @@ For more detailed documentation on our file structure and specific functions in 
 2. Move into the root folder by running `cd wireless-tool`
 3. Activate the virtual environment by running `source ./bin/activate`
 4. Move into the main folder by running `cd app`
-5. Start the server by running `gunicorn --reload app:api`
+5. Start the server by running `gunicorn --reload index:api`
 
 ## Deployment 🚀
 *TBD*

@@ -1,11 +1,14 @@
 import json
 import falcon
+import psycopg2
 
-
-class Hello:
+# This classed is triggered by the "/test" endpoint
+class Test:
     def on_get(self, req, res):
-        print("Hello!")
+        print("This is a Falcon server with PostgreSQL!")
 
-
+# Instantiate the server
 api = falcon.API()
-api.add_route("/hello", Hello)
+
+# Create a route called "/test" that will triger the Test class
+api.add_route("/test", Test())
