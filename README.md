@@ -9,7 +9,9 @@ Wireless Tool for ITC
 
 ## Architecture
 ### Tech Stack 🥞
-*TBD*
+• Python 3.7
+• Gunicorn # the server
+• Falcon  # the framework
 
 #### Packages 📦
 *TBD*
@@ -23,14 +25,45 @@ Wireless Tool for ITC
 ### File Structure
 
 ```
-├──[wireless-tool]/              # root directory
-|  └──[README.md]                # this file!
+├──[wireless-tool]/ # root directory
+    ├── README.md
+    ├── app
+    │   ├── __pycache__
+    │   └── app.py # the root file of the server
+    ├── bin # virtual environment
+    │   ├── activate
+    │   ├── activate.csh
+    │   ├── activate.fish
+    │   ├── activate.ps1
+    │   ├── activate.xsh
+    │   ├── activate_this.py
+    │   ├── easy_install
+    │   ├── easy_install-3.7
+    │   ├── falcon-bench
+    │   ├── falcon-print-routes
+    │   ├── gunicorn
+    │   ├── pip
+    │   ├── pip3
+    │   ├── pip3.7
+    │   ├── python -> python3.7
+    │   ├── python-config
+    │   ├── python3 -> python3.7
+    │   ├── python3.7
+    │   └── wheel
+    ├── include
+    │   └── python3.7m -> /usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/include/python3.7m
+    └── lib
+        └── python3.7
 ```
 
 For more detailed documentation on our file structure and specific functions in the code, feel free to check the project files themselves.
 
 ## Setup Steps 
 1. Clone repo by running `git clone https://github.com/dali-lab/wireless-tool` in your terminal
+2. Move into the root folder by running `cd wireless-tool`
+3. Activate the virtual environment by running `source ./bin/activate`
+4. Move into the main folder by running `cd app`
+5. Start the server by running `gunicorn --reload app:api`
 
 ## Deployment 🚀
 *TBD*
