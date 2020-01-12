@@ -59,7 +59,7 @@ Wireless Tool for ITC
 For more detailed documentation on our file structure and specific functions in the code, feel free to check the project files themselves.
 
 ## Setup Steps 
-1. Clone repo by running `git clone https://github.com/dali-lab/wireless-tool` in your terminal
+1. Clone the dev branch by running `git clone https://github.com/dali-lab/wireless-tool.git --branch dev` in your terminal
 2. Move into the root folder by running `cd wireless-tool`
 3. Activate the virtual environment by running `source ./bin/activate`
 4. Move into the main folder by running `cd app`
