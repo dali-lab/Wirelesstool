@@ -11,7 +11,7 @@ Wireless Tool for ITC
 ### Tech Stack 🥞
 • Python 3.7\
 • Gunicorn # the server\
-• Falcon  # the framework\
+• Falcon  # the framework
 
 #### Packages 📦
 *TBD*
