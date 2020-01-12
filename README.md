@@ -12,6 +12,7 @@ Wireless Tool for ITC
 • Python 3.7\
 • Gunicorn - server\
 • Falcon - framework
+• PostgreSQL - database
 
 #### Packages 📦
 *TBD*
