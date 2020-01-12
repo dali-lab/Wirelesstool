@@ -31,7 +31,7 @@ Wireless Tool for ITC
     │   ├── __pycache__
     │   ├── components
     │   ├── config
-    │   └── index.py # the root file for the server
+    │   └── index.py # the root file of the server
     ├── bin # virtual environment        
     ├── include
     │   └── python3.7m -> /usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/include/python3.7m
