@@ -45,8 +45,8 @@ For more detailed documentation on our file structure and specific functions in 
 ## Setup Steps 
 1. Clone the dev branch by running `git clone https://github.com/dali-lab/wireless-tool.git --branch dev` in your terminal
 2. Move into the root folder by running `cd wireless-tool`
-3. Activate the virtual environment by running `source ./bin/activate`
-4. Move into the main folder by running `cd app`
+3. Install everything by running `virtualenv .env && source .env/bin/activate && pip install -r requirements.txt`
+4. Move into the main folder by running `cd server`
 5. Start the server by running `gunicorn --reload index:api`
 
 ## Deployment 🚀
