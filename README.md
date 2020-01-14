@@ -28,6 +28,7 @@ Wireless Tool for ITC
 ```
 ├──[wireless-tool]/ # root directory
     ├── README.md
+    ├── requirements.txt
     ├── server
     │   ├── components
     │   ├── config
