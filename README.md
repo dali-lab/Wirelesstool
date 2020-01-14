@@ -33,7 +33,7 @@ Wireless Tool for ITC
     │   ├── components
     │   ├── config
     │   └── index.py # the root file of the server
-    ├── bin # virtual environment        
+    ├── bin        
     ├── include
     └── lib
 ```
