@@ -44,7 +44,7 @@ For more detailed documentation on our file structure and specific functions in 
 1. Clone the dev branch `git clone https://github.com/dali-lab/wireless-tool.git --branch dev` in your terminal
 2. Move into the root folder `cd wireless-tool`
 4. Install virtualenv `pip3 install virtualenv`
-3. Install everything `virtualenv .env && source .env/bin/activate && pip install -r requirements.txt` (should be executed at root level, e.g. the wireless-tool folder)
+3. Install everything `virtualenv .env && source .env/bin/activate && pip install -r requirements.txt` (should be executed at root level, the wireless-tool folder)
 4. Move into the main folder `cd server`
 5. Start the server `gunicorn --reload index:api`
 
