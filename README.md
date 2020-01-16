@@ -35,6 +35,11 @@ Wireless Tool for ITC
     │   │   └── index.py # the root file of the server
     │   ├── requirements.txt
     ├── frontend
+    │   ├── public
+    │   ├── src
+    │   ├── package.json
+    │   ├── yarn.lock
+    │   ├── README.md
     ├── README.md
 ```
 
