@@ -1,0 +1,6 @@
+[submodule "wireless-tool-backend"]
+	path = wireless-tool-backend
+	url = https://github.com/dali-lab/wireless-tool-backend
+[submodule "wireless-tool-frontend"]
+	path = wireless-tool-frontend
+	url = https://github.com/dali-lab/wireless-tool-frontend
